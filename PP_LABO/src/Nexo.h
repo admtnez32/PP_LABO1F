@@ -7,6 +7,7 @@
 #include "Pedidos.h"
 #include "Clientes.h"
 #include "Localidad.h"
+#include "Informes.h"
 typedef struct
 {
 	int idPedido;
@@ -42,12 +43,6 @@ int ProcesarResiduos(eCliente listaClientes[], int tamClientes, ePedido listaPed
 
 int ContarPedidosPendientesLocalidad(ePedido listaPedidos[], int tamPedidos, eLocalidad localidades[], eAuxiliar contador[]);
 
-int PrintPedidosPendientesLocalidad(ePedido listaPedidos[], int tamPedidos, eLocalidad localidades[]);
 
-//int PrintPPRecicladoPromedioPorCliente(eCliente listaClientes[], int tamClientes, ePedido listaPedidos[], int tamPedidos);
-
-int PrintClientesConMasPedidosProcesados(eCliente listaClientes[], int tamClientes, ePedido listaPedidos[], int tamPedidos);
-
-int PrintClientesConMasPedidosPendientes(eCliente listaClientes[], int tamClientes, ePedido listaPedidos[], int tamPedidos);
 
 #endif /* NEXO_H_ */

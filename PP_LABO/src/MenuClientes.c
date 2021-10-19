@@ -12,7 +12,9 @@ int MenuPrincipal(void)
 	    "*      7- Imprimir Pedidos pendientes		*\n"
 	    "*      8- Imprimir Pedidos procesados		*\n"
 	    "*      9- Imprimir Pedidos pendientes espec.	*\n"
-	    "*      10- Imprimir Promedio de kg de PP	*\n*						*"
+	    "*      10- Imprimir Promedio de kg de PP	*\n"
+		"*      11- Imprimir Cliente con más pedidos pendientes.	*\n"
+		"*      12- Imprimir Cliente con más pedidos procesados.	**						*\n"
 	    "\n*      0-SALIR					*\n*						*\n");
 
 return 0;
